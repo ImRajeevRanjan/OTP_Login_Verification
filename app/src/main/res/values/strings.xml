@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MasterHive</string>
+    <string name="mobile_number">Please enter mobile number</string>
+    <string name="otp">Please enter your OTP</string>
+    <string name="button">Get OTP</string>
+    <string name="resend">Resend OTP</string>
+
+
+</resources>

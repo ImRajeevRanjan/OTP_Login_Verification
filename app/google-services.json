@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "339266725305",
+    "project_id": "masterhive-b2242",
+    "storage_bucket": "masterhive-b2242.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339266725305:android:3a03f851a3b903e38ac268",
+        "android_client_info": {
+          "package_name": "com.example.masterhive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339266725305-kdgeb4dhdbroob5pedcp91ouqgb7tlpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIS5I_sC79HpIujSX8O0C5jDsw4Xhm5UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339266725305-kdgeb4dhdbroob5pedcp91ouqgb7tlpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

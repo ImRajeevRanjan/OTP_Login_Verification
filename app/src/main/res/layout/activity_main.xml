@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/animated_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp">
+    <ImageView
+        android:id="@+id/book"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/book"
+        android:layout_centerInParent="true"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:id="@+id/book_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/book"
+        android:layout_centerInParent="true"
+        android:textColor="@color/book_text"
+        >
+    </TextView>
+</RelativeLayout>
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/progressbar"
+        android:isScrollContainer="true"
+        android:theme="@style/Animation.Design.BottomSheetDialog"
+        >
+
+    </ProgressBar>
+
+    <RelativeLayout
+        android:id="@+id/aterAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+
+
+        >
+           <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/mobile_number_layout"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+
+
+               >
+               <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/mobile_number"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:hint="@string/mobile_number"
+                   android:drawableLeft="@drawable/mobile"
+                   android:drawablePadding="15dp"
+                    android:inputType="phone"
+
+                   >
+
+
+               </com.google.android.material.textfield.TextInputEditText>
+           </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/otp_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/otp"
+                    android:drawableLeft="@drawable/otp"
+                    android:drawablePadding="15dp"
+                    android:inputType="number"
+                    >
+
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"/>
+
+            <TextView
+                android:id="@+id/resend_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resend"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:textColor="@color/purple_700"
+                android:visibility="gone"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/button"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/button_background"
+
+                >
+
+            </Button>
+
+
+
+
+        </LinearLayout>
+    ></RelativeLayout>
+
+</RelativeLayout>
